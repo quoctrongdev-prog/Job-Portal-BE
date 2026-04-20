@@ -59,7 +59,7 @@ https://github.com/quoctrongdev-prog/Job-Portal-FE
 
 ## ⚙️ Setup Locally
 
-### 1. Clone repository
+### Clone repository
 ```bash
 git clone https://github.com/quoctrongdev-prog/Job-Portal-BE
 cd services
@@ -70,9 +70,9 @@ npm install
 ```
 
 ## Database (Neon)
-### 1. Create a Neon database
+### Create a Neon database
 Go to https://neon.tech and create a new project
-### 2. Run schema
+### Run schema
 psql "$DATABASE_URL" < db/schema.sql
 
 ## Setup environment variables
