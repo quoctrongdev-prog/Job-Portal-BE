@@ -68,6 +68,13 @@ cd services
 ```bash
 npm install
 ```
+
+## Database (Neon)
+### 1. Create a Neon database
+Go to https://neon.tech and create a new project
+### 2. Run schema
+psql "$DATABASE_URL" < db/schema.sql
+
 ## Setup environment variables
 
 ### auth
