@@ -72,42 +72,42 @@ npm install
 
 ### auth
 ```bash
-PORT=5000  <br>
-DB_URL=your_db_url  <br>
-UPLOAD_SERVICE=http://localhost:5001  <br>
-JWT_SEC=your_jwt_sec  <br>
-Kafka_Broker=your_kafka_broker  <br>
-Frontend_Url=http://localhost:3000  <br>
-Redis_url=your_redis_url  <br>
+PORT=5000  
+DB_URL=your_db_url 
+UPLOAD_SERVICE=http://localhost:5001  
+JWT_SEC=your_jwt_sec 
+Kafka_Broker=your_kafka_broker  
+Frontend_Url=http://localhost:3000  
+Redis_url=your_redis_url 
 ```
 
 ### job
 ```bash
-PORT=5003  <br>
-DB_URL=your_db_url  <br>
-UPLOAD_SERVICE=http://localhost:5001  <br>
-JWT_SEC=your_jwt_sec  <br>
-Kafka_Broker=your_kafka_broker  <br>
+PORT=5003  
+DB_URL=your_db_url  
+UPLOAD_SERVICE=http://localhost:5001 
+JWT_SEC=your_jwt_sec 
+Kafka_Broker=your_kafka_broker 
 ```
 
 ### user
 ```bash
-PORT=5002  <br>
-DB_URL=your_db_url  <br>
-UPLOAD_SERVICE=http://localhost:5001  <br>
-JWT_SEC=your_jwt_sec  <br>
+PORT=5002  
+DB_URL=your_db_url  
+UPLOAD_SERVICE=http://localhost:5001 
+JWT_SEC=your_jwt_sec  
 ```
 
 ### utils
 ```bash
-PORT=5001  <br>
-CLOUD_NAME=your_cloudinary_name  <br>
-API_KEY=your_api_cloudinary_key  <br>
-API_SECRET=your_api_cloudinary_key_sec  <br>
-Kafka_Broker=your_kafka_broker  <br>
-SMTP_USER=your_user  <br>
-SMTP_PASS=your_app_password_gmail  <br>
-API_KEY_GEMINI=your_api_key_gemini  <br>
+PORT=5001  
+CLOUD_NAME=your_cloudinary_name  
+API_KEY=your_api_cloudinary_key  
+API_SECRET=your_api_cloudinary_key_sec  
+Kafka_Broker=your_kafka_broker  
+SMTP_USER=your_user  
+SMTP_PASS=your_app_password_gmail  
+API_KEY_GEMINI=your_api_key_gemini  
 ```
 
 ## Run server
