@@ -65,7 +65,7 @@ https://github.com/quoctrongdev-prog/Job-Portal-FE
 - Post /api/auth/reset/:token
 ### User service
 - Post /api/user/skill/add
-- Delete /api/user/skill/delete
+- Put /api/user/skill/delete
 - Put /api/user/update/profile
 - Post /api/user/apply/job
 ### Job service
