@@ -83,6 +83,15 @@ Make sure Docker is installed.
 docker-compose up --build
 ```
 
+```md
+## External Services
+
+This project requires:
+
+- Kafka (for event-driven processing)
+- Redis (for caching)
+```
+
 ## Setup environment variables
 
 ### auth
