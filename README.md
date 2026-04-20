@@ -114,7 +114,6 @@ API_KEY_GEMINI=your_api_key_gemini
 ```bash
 npm run dev
 ```
- <br>
 ### auth: http://localhost:5000
 ### utils: http://localhost:5001
 ### user: http://localhost:5002
