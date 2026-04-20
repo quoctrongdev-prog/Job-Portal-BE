@@ -33,7 +33,8 @@ https://github.com/quoctrongdev-prog/Job-Portal-FE
 ## AI Integration
 
 - Resume evaluation
-- Career guidence  
+- Career guidence
+- Model: gemini-3-flash-preview
 (Powered by Gemini API)
 
 ---
