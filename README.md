@@ -34,8 +34,8 @@ https://github.com/quoctrongdev-prog/Job-Portal-FE
 
 - Resume evaluation
 - Career guidence
-- Model: gemini-3-flash-preview
-(Powered by Gemini API)
+- ## Model: gemini-3-flash-preview
+
 
 ---
 
