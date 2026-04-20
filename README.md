@@ -57,7 +57,7 @@ https://github.com/quoctrongdev-prog/Job-Portal-FE
 
 ---
 
-## ⚙️ Setup Locally
+## Setup Locally
 
 ### Clone repository
 ```bash
