@@ -73,8 +73,9 @@ npm install
 ### Create a Neon database
 Go to https://neon.tech and create a new project
 ### Run schema
+```bash
 psql "$DATABASE_URL" < db/schema.sql
-
+```
 ## Run with Docker
 
 Make sure Docker is installed.
