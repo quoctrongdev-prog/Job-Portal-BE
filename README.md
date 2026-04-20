@@ -70,44 +70,44 @@ npm install
 ## Setup environment variables
 
 ### auth
-PORT=5000
-DB_URL=your_db_url
-UPLOAD_SERVICE=http://localhost:5001
-JWT_SEC=your_jwt_sec
-Kafka_Broker=your_kafka_broker
-Frontend_Url=http://localhost:3000
-Redis_url=your_redis_url
+PORT=5000  <br>
+DB_URL=your_db_url  <br>
+UPLOAD_SERVICE=http://localhost:5001  <br>
+JWT_SEC=your_jwt_sec  <br>
+Kafka_Broker=your_kafka_broker  <br>
+Frontend_Url=http://localhost:3000  <br>
+Redis_url=your_redis_url  <br>
 
 ### job
-PORT=5003
-DB_URL=your_db_url
-UPLOAD_SERVICE=http://localhost:5001
-JWT_SEC=your_jwt_sec
-Kafka_Broker=your_kafka_broker
+PORT=5003  <br>
+DB_URL=your_db_url  <br>
+UPLOAD_SERVICE=http://localhost:5001  <br>
+JWT_SEC=your_jwt_sec  <br>
+Kafka_Broker=your_kafka_broker  <br>
 
 ### user
-PORT=5002
-DB_URL=your_db_url
-UPLOAD_SERVICE=http://localhost:5001
-JWT_SEC=your_jwt_sec
+PORT=5002  <br>
+DB_URL=your_db_url  <br>
+UPLOAD_SERVICE=http://localhost:5001  <br>
+JWT_SEC=your_jwt_sec  <br>
 
 ### utils
-PORT=5001
-CLOUD_NAME=your_cloudinary_name
-API_KEY=your_api_cloudinary_key
-API_SECRET=your_api_cloudinary_key_sec
-Kafka_Broker=your_kafka_broker
-SMTP_USER=your_user
-SMTP_PASS=your_app_password_gmail
-API_KEY_GEMINI=your_api_key_gemini
+PORT=5001  <br>
+CLOUD_NAME=your_cloudinary_name  <br>
+API_KEY=your_api_cloudinary_key  <br>
+API_SECRET=your_api_cloudinary_key_sec  <br>
+Kafka_Broker=your_kafka_broker  <br>
+SMTP_USER=your_user  <br>
+SMTP_PASS=your_app_password_gmail  <br>
+API_KEY_GEMINI=your_api_key_gemini  <br>
 
 ## Run server
-npm run dev
+npm run dev  <br>
 ### auth: http://localhost:5000
 ### utils: http://localhost:5001
 ### user: http://localhost:5002
 ### job: http://localhost:5003
 
 #Author
-Vũ Quốc Trọng
+Vũ Quốc Trọng  <br>
 GitHub: https://github.com/quoctrongdev-prog
