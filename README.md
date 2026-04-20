@@ -92,6 +92,25 @@ This project requires:
 - Kafka (for event-driven processing)
 - Redis (for caching)
 ```
+## API Overview
+
+### Auth service
+- Post /api/auth/register
+- Post /api/auth/login
+- Post /api/auth/forgot
+- Post /api/auth/reset/:token
+### User service
+- Post /api/user/skill/add
+- Delete /api/user/skill/delete
+- Put /api/user/update/profile
+- Post /api/user/apply/job
+### Job service
+- Post /api/job/new
+- Post /api/job/company/new
+- Put /api/job/application/update/:Id
+### Utils services
+- Post /api/utils/career
+- Post /api/utils/resume-analyser
 
 ## Setup environment variables
 
