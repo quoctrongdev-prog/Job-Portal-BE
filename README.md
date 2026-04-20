@@ -65,11 +65,13 @@ git clone https://github.com/quoctrongdev-prog/Job-Portal-BE
 cd services
 ```
 ## Install dependencies
+```bash
 npm install
-
+```
 ## Setup environment variables
 
 ### auth
+```bash
 PORT=5000  <br>
 DB_URL=your_db_url  <br>
 UPLOAD_SERVICE=http://localhost:5001  <br>
@@ -77,21 +79,27 @@ JWT_SEC=your_jwt_sec  <br>
 Kafka_Broker=your_kafka_broker  <br>
 Frontend_Url=http://localhost:3000  <br>
 Redis_url=your_redis_url  <br>
+```
 
 ### job
+```bash
 PORT=5003  <br>
 DB_URL=your_db_url  <br>
 UPLOAD_SERVICE=http://localhost:5001  <br>
 JWT_SEC=your_jwt_sec  <br>
 Kafka_Broker=your_kafka_broker  <br>
+```
 
 ### user
+```bash
 PORT=5002  <br>
 DB_URL=your_db_url  <br>
 UPLOAD_SERVICE=http://localhost:5001  <br>
 JWT_SEC=your_jwt_sec  <br>
+```
 
 ### utils
+```bash
 PORT=5001  <br>
 CLOUD_NAME=your_cloudinary_name  <br>
 API_KEY=your_api_cloudinary_key  <br>
@@ -100,14 +108,18 @@ Kafka_Broker=your_kafka_broker  <br>
 SMTP_USER=your_user  <br>
 SMTP_PASS=your_app_password_gmail  <br>
 API_KEY_GEMINI=your_api_key_gemini  <br>
+```
 
 ## Run server
-npm run dev  <br>
+```bash
+npm run dev
+```
+ <br>
 ### auth: http://localhost:5000
 ### utils: http://localhost:5001
 ### user: http://localhost:5002
 ### job: http://localhost:5003
 
-#Author
+# Author
 Vũ Quốc Trọng  <br>
 GitHub: https://github.com/quoctrongdev-prog
