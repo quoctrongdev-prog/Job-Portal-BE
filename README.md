@@ -75,6 +75,14 @@ Go to https://neon.tech and create a new project
 ### Run schema
 psql "$DATABASE_URL" < db/schema.sql
 
+## Run with Docker
+
+Make sure Docker is installed.
+
+```bash
+docker-compose up --build
+```
+
 ## Setup environment variables
 
 ### auth
